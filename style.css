@@ -1,0 +1,14 @@
+
+    table{
+        table-layout:fixed;
+        width: 100%;
+    }
+
+    table tr th:nth-child(){
+       width: 60%;
+     }
+
+.complete {
+
+    background-color: grey;
+}
