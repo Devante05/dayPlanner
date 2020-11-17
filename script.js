@@ -1,3 +1,7 @@
+
+    $("#currentDay").append(moment().format('dddd, MMM Do'));
+
+
 var subtaskArr = []
 
 var nineAmDivEl = $("#9");
@@ -9,10 +13,6 @@ var twoAPmDivEl = $("#2");
 var threePmDivEl = $("#3");
 var fourPmDivEl = $("#4");
 var fivePmDivEl = $("#5");
-var sixPmDivEl = $("#6");
-var sevenPmDivEl = $("#7");
-var eightPmDivEl = $("#8");
-var ninePmDivEl = $("#9pm");
 
 //some function that will check local storage for subtask array if so grab it 
 function getSubtask (){
